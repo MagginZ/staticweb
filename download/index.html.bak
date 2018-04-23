@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/appdownload.css">
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script>
+        var iScale = 1
+        iScale = iScale / window.devicePixelRatio
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + iScale + ',minimum-scale=' + iScale + ',maximum-scale=' + iScale + '" />')
+        document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth / 19.2 + 'px'
+    </script>
+    <title>下载莓果APP</title>
+    <style>
+        .one{
+            background: url("static/img/appdownload/bg1.png");
+            background-repeat: no-repeat;
+            height: 7.64rem;
+        }
+        .two{
+            background: url("static/img/appdownload/bg2.png");
+            background-repeat: no-repeat;
+            height: 6.87rem;
+
+        }
+        .three{
+            background: url("static/img/appdownload/bg3.png");
+            background-repeat: no-repeat;
+            height: 7rem;
+        }
+        .four{
+            background: url("static/img/appdownload/bg4.png");
+            background-repeat: no-repeat;
+            height: 12.79rem;
+        }
+    </style>
+</head>
+<body>
+<div class="appdownload">
+    <!-- container -->
+    <div class="box-bg one">
+        <div class="container introduce">
+            <div class="left intro-content">
+                <img src="static/img/appdownload/logo.png" alt="" class="left-float logo-img">
+                <div class="title left-float">
+                    <h3>莓果 <span>M-berry</span></h3>
+                    <p>抢码挖矿必备软件</p>
+                </div>
+                <p class="intro clear text-left">
+                    <b style="color:#FFEE00">莓果APP</b>
+                    是区块链全球发展基金会（Blockchain Global Development Foundation）管理的全球分布式共享CDN区块链项目BlockCDN推出为用户定制的集预约抢码、提现、转账、账单查询、挖矿收益等功能于一体的软件，方便用户随时查看项目动态，在APP里抢码，参与项目挖矿当中；用户还可以在APP 社区里获取资讯，交流信息，参与官方活动等。
+                </p>
+                <div class="installIOS text-left">
+                    <img src="static/img/appdownload/problem.png" alt=""> <b class="modal-link" data-toggle="modal" data-target="#myModal">如何安装安卓IOS版APP？</b>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="static/img/appdownload/alert1.png" alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="static/img/appdownload/alert2.png" alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="static/img/appdownload/alert3.png" alt=""  class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img src="static/img/appdownload/alert4.png" alt=""  class="img-responsive">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a type="button" class="close" data-dismiss="modal" aria-label="Close">关闭</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="install row text-center">
+                        <div class="col col-sm-6 col-xs-12">
+                            <a href="https://www.pgyer.com/Slhm" target="_blank" class="downloadbtn">
+                                <img src="static/img/appdownload/andoridB.png" alt="" class="black">
+                                <img src="static/img/appdownload/andoridW.png" alt="" class="hide">
+                            </a>
+                            <p class="download-count">已有1131人下载</p>
+                        </div>
+                        <div class="col col-sm-6 col-xs-12">
+                            <a href="https://www.pgyer.com/hkwM"  target="_blank" class="downloadbtn">
+                                <img src="static/img/appdownload/iphoneB.png" alt="" class="black">
+                                <img  src="static/img/appdownload/iphoneW.png" alt="" class="hide">
+                            </a>
+                            <p class="download-count">已有1452人下载</p>
+                        </div>
+                    </div>
+                    <div class="install-soft row text-center">
+                        <div class="col col-xs-6">
+                            <a href="" class="downloadbtn" disabled>
+                                <img src="static/img/appdownload/linuxB.png" alt="" class="black">
+                                <img src="static/img/appdownload/linuxW.png" alt="" class="hide">
+                            </a>
+                            <p class="download-count">已有2546人下载</p>
+                        </div>
+                        <div class="col col-xs-6">
+                            <a href="" class="downloadbtn" disabled>
+                                <img src="static/img/appdownload/berryB.png"class="black" >
+                                <img src="static/img/appdownload/berryW.png" alt="" class="hide">
+                            </a>
+                            <p class="download-count">已有1144下载</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="static/img/appdownload/scanCode.png" alt="" class="QRCode-img">
+                <img src="static/img/appdownload/phone1.png" alt="phone1" class="phone-one">
+            </div>
+        </div>
+    </div>
+    <div class="box-bg two">
+        <div class="container">
+            <div class="course left-float">
+                <img src="static/img/appdownload/course.png" alt="" class="phone-two">
+            </div>
+            <div class="right">
+                <img src="static/img/appdownload/everytime.png" alt="" class="desc-one">
+            </div>
+        </div>
+    </div>
+    <div class="box-bg three" >
+        <div class="container">
+            <div class="surprise float-left">
+                <img src="static/img/appdownload/surprise.png" alt="" class="desc desc-two">
+            </div>
+            <div class="right right-float">
+                <img src="static/img/appdownload/drawingcode.png" alt="" class="phone-three">
+            </div>
+        </div>
+    </div>
+    <div class="box-bg four">
+        <div class="container">
+            <div class="assets left-float">
+                <img src="static/img/appdownload/import.png" alt="" class="phone-four">
+            </div>
+            <div class="right">
+                <img src="static/img/appdownload/everytimeImport.png" alt="" class="desc-three">
+            </div>
+            <div class="money left-right">
+                <img src="static/img/appdownload/assets.png" alt="" class="desc-four">
+            </div>
+            <div class="right">
+                <img src="static/img/appdownload/money.png" alt="" class="phone-five right-float">
+            </div>
+        </div>
+    </div>
+    <div class="box-bg five">
+        <img src="static/img/appdownload/footer.png" alt="" class="five-bg">
+    </div>
+</div>
+<script>
+    $('.downloadbtn').on('click',function(){
+        $(this.children[0]).addClass('hide').siblings().addClass('show');
+    })
+</script>
+</body>
+</html>

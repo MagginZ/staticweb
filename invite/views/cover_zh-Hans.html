@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>恭喜您</title>
+    <link rel="stylesheet" href="template/css/register.css">
+</head>
+<body>
+<div class="main">
+    <img src="template/img/bg.png" alt="bg" class="bg">
+    <div class="congratulations">
+        <p>恭喜你獲得 <br>
+            <b id="score">1000</b>BCDN Points
+        </p>
+    </div>
+    <a href="register_zh-Hans.html" class="fast-btn"><img src="template/img/2.png" alt="" class="btn-bg"><span class="fast">快速注冊</span></a>
+</div>
+
+<script src="template/js/jquery-3.2.1.min.js"></script>
+<script src="template/js/register_zh-Hans.js"></script>
+<script>
+    var iScale = 1;
+    iScale = iScale / window.devicePixelRatio;
+    document.write('<meta name="viewport" content="width=device-width,initial-scale=' + iScale + ',minimum-scale=' + iScale + ',maximum-scale=' + iScale + '" />')
+    document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth / 7.6 + 'px';
+</script>
+</body>
+</html>

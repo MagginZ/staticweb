@@ -1,0 +1,188 @@
+/*****注册首页****/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+.main,.register-form{
+    margin:0 auto;
+    padding:0 0.04rem;
+}
+.bg{
+    width: 7.32rem;
+    height: 7.04rem;
+}
+.congratulations{
+    text-align: center;
+    color: #6479FF;
+    margin-top:1.08rem;
+    font-size:45px;
+}
+.fast-btn{
+    position: relative;
+    display: block;
+    color: #fff;
+    font-size: 0.45rem;
+    margin-top:0.84rem;
+}
+.fast-btn:active{
+    background: none;
+    border: 0;
+}
+.btn-bg{
+    width:7.5rem;
+    height: 1.38rem;
+    border: 0;
+}
+.fast{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1rem;
+}
+
+/**********注册页面**********/
+.register-title{
+    font-size:0.54rem;
+    text-align: center;
+    margin-top:0.66rem;
+}
+.register-form{
+    margin-top:0.54rem ;
+}
+.wrong{
+    color: red;
+}
+.input-box{
+    width: 6.54rem;
+    text-align: center;
+    height:1.38rem;
+    border-bottom: 1px solid #CECECE;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: left;
+}
+label{
+    font-size:0.4rem;
+    width: 3.19rem;
+    display: block;
+    line-height: 1.8rem;
+}
+input{
+    width:3.54rem;
+    height: 1rem;
+    border: 0;
+    outline: none;
+    font-size:0.4rem;
+    margin-top: 0.38rem;
+}
+input::-webkit-input-placeholder{
+    color: #C6C6C6;
+    font-size:0.3rem;
+}
+
+input:-moz-placeholder{
+    color: #C6C6C6;
+    font-size:0.3rem;
+}
+
+input::-moz-placeholder{
+    color: #C6C6C6;
+    font-size:0.3rem;
+}
+input:-ms-input-placeholder{
+    color: #C6C6C6;
+    font-size:0.3rem;
+}
+.sendCaptcha{
+    background: url("../img/3.png") no-repeat;
+    background-size:cover;
+    border: 0;
+    outline: none;
+    position: absolute;
+    width: 1.86rem;
+    height:0.6rem;
+    right:0.6rem;
+    font-size:0.3rem ;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.input-box input:nth-child(2){
+    position: relative;
+}
+.fast-btn{
+    margin-top: 1.05rem;
+}
+.desc{
+    font-size:32px;
+    text-align: center;
+    color: #333;
+}
+.desc a{
+    text-decoration: none;
+}
+/***********选择手机号**************/
+
+.choose-phone-code{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    display: none;
+}
+.choose-country{
+    height:1.5rem;
+    background-color: #6479FF;
+    background:-webkit-linear-gradient(left,#8E9AFC,#5e74fe);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.back{
+    margin-left: 0.44rem;
+    line-height:1.44rem;
+    float: left;
+}
+.choose-title{
+    font-size:0.54rem;
+    margin-left:-0.88rem;
+}
+.country-list{
+    list-style: none;
+    font-size: 0.44rem;
+    height: 100%;
+    margin-top: 1.8rem;
+    /*overflow: scroll;*/
+}
+.country-list li{
+    height: 1.08rem;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0 0.18rem;
+    line-height: 1.08rem;
+}
+/*********注册成功弹框*********/
+.register-success{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.register-success img{
+    width:6.33rem;
+    height: 8.07rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:20%;
+}

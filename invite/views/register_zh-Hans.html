@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新用戶注冊</title>
+    <link rel="stylesheet" href="static/template/css/register.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+<p class="register-title">快速注冊莓果APP</p>
+<div class="register-form">
+    <form>
+        <div class="input-box">
+            <div id="choose"><label>手機號+ <span id="chooseCountry">86</span>&nbsp;&gt;</label></div>
+            <input type="text" placeholder="請輸入手機號" id="phoneNumber" autofocus>
+            <span class="msg wrong"></span>
+        </div>
+        <div class="input-box">
+            <label for="captcha">驗證碼</label>
+            <input type="text" placeholder="驗證碼" id="captcha">
+            <button class="sendCaptcha">發送驗證碼</button>
+        </div>
+        <div class="input-box">
+            <label for="password">設置密碼</label>
+            <input type="password" placeholder="密碼長度6-20位" id="password" maxlength="20" minlength="6">
+        </div>
+        <div class="input-box">
+            <label for="nickname">用戶名</label>
+            <input type="text" placeholder="4-16個字符" id="nickname" maxlength="16" minlength="4">
+        </div>
+        <a href="#" class="register-btn fast-btn"><img src="static/template/img/2.png" alt="" class="btn-bg"><span class="fast">快速注冊</span></a>
+    </form>
+    <p class="desc">點擊注冊即表示接受blockCDN的<a style="color:#7183FD " href="https://app.blockcdn.org/userProtocol/traditionalChinese.html">《用戶協議》</a></p>
+</div>
+<!--选择手机区号-->
+<div class="choose-phone-code">
+    <div class="choose-country">
+        <b class="back">&lt;</b>
+        <span class="choose-title">請選擇國家</span>
+    </div>
+    <ul class="country-list">
+        <!--ajax加载-->
+    </ul>
+</div>
+<!--注册成功弹框-->
+<div class="register-success">
+    <img src="static/template/img/LOGO000-fan.png" alt="">
+</div>
+<script src="static/template/js/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+<script src="static/template/js/register_zh-Hans.js"></script>
+<script>
+    var iScale = 1;
+    iScale = iScale / window.devicePixelRatio;
+    document.write('<meta name="viewport" content="width=device-width,initial-scale=' + iScale + ',minimum-scale=' + iScale + ',maximum-scale=' + iScale + '" />')
+    document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth / 7.6 + 'px';
+</script>
+</body>
+</html>
